@@ -1,19 +1,2 @@
 /* Váš kód… */
 
-.media-object {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.media-object__image {
-  flex: 1;
-  margin-right: 20px;
-  min-width: 100px;
-  max-width: 200px;
-}
-
-.media-object__text {
-  flex: 3 3 200px;
-  max-width: 400px;
-}
-
