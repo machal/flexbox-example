@@ -1,0 +1,27 @@
+/* Base */
+
+ul {
+  list-style-type: none;
+  padding-right: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.item {
+  flex: auto;
+}
+
+.item__anchor {
+  padding: 1em;
+  display: block;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+

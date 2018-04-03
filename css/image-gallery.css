@@ -1,0 +1,60 @@
+/* Base */
+
+.items {
+  border: 1px solid grey;
+}
+
+.item {
+  padding: 1em;
+  background: whitesmoke;
+}
+
+.item__image {
+  margin-bottom: 1em;
+}
+
+.item__heading {
+  margin: 0;
+}
+
+/* Your code… */
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  box-sizing: border-box;
+  /* IE11: bug https://github.com/philipwalton/flexbugs#flexbug-8
+  flex-basis: calc(33.3% - (2em/3));
+  */
+  width: calc(33.3% - (2em/3));
+  margin-bottom: 1em;
+  min-width: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item:nth-last-child(-n+3) {
+  margin-bottom: 0;
+}
+
+.item__image {
+  flex: 1 1 auto;
+  display: flex;
+  /* IE11 hack */
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+
+.item__heading {
+  flex: 0 0 5em;
+}

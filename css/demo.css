@@ -1,0 +1,39 @@
+/* Base */
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+p {
+  margin-top: 0;
+}
+
+.container {
+  margin: 1em;
+}
+
+.flex {
+  border: 2px solid black;
+}
+
+.item {
+  background: lightgrey;
+  border: 1px solid grey;
+}
+
+/* Your code */
+
+.flex--display {
+  display: flex;
+}
+
+.flex--display-inline {
+  display: inline-flex;
+  height: 1.4em;
+}

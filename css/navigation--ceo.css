@@ -1,0 +1,9 @@
+/* Váš kód */
+
+.item {
+  flex: 1;
+}
+
+.item--ceo {
+  flex: 3;
+}

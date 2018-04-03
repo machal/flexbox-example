@@ -1,0 +1,29 @@
+/* Base */
+
+.flex {
+  display: flex;
+}
+
+.item {
+  padding: 1em;
+}
+
+
+/* Your code…
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.item {
+  flex: 1;
+  min-width: 100px;
+  max-width: 300px;
+  margin: 5px;
+}
+
+
+
+*/

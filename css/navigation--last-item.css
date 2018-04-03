@@ -1,0 +1,12 @@
+/* Váš kód */
+
+.item {
+  /*  IE11 nepodporuje max-width https://github.com/philipwalton/flexbugs#flexbug-17 */
+  flex: 0 1 150px;
+  max-width: none;
+  min-width: 50px;
+}
+
+.item--last {
+  margin-left: auto;
+}

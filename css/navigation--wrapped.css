@@ -1,0 +1,11 @@
+/* Váš kód */
+
+.flex {
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1;
+  min-width: 100px;
+}
+

@@ -1,0 +1,30 @@
+/* Base */
+
+.container {
+  border: 1px solid grey;
+}
+
+.box {
+  margin: 0;
+  border: 1px solid green;
+}
+
+/* Váš kód… */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.box:first-child {
+  margin-left: 0;
+}
+
+

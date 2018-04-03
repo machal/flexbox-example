@@ -1,0 +1,16 @@
+/* Váš kód */
+
+.item {
+  flex: 1;
+  min-width: 0;
+}
+
+.item--ceo {
+  flex: 3;
+}
+
+.item--ceo {
+  flex: 3;
+}
+
+

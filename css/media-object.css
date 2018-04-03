@@ -1,0 +1,27 @@
+/* Base */
+
+.container {
+  border: 1px solid grey;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.media-object {
+  padding: 20px;
+  background: lightgrey;
+  margin-bottom: 20px;
+}
+
+.media-object__text p {
+  margin-bottom: 0;
+}
+
+.media-object__image {
+  margin-bottom: 10px;
+}
+
+.media-object:last-child {
+  margin-bottom: 0;
+}
+
+
